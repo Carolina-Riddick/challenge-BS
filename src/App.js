@@ -1,23 +1,13 @@
-import logo from './logo.svg';
 import './App.css';
+import Fibonacci from './components/Fibonacci';
+import Spores from './components/Spores';
 
 function App() {
-  return (
+  return (  
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h2 className='font-weight-bold text-center mb-4 '>Welcome to the Bio Scout Challenge 🙂 </h2>
+      <Spores/>
+      <Fibonacci /> 
     </div>
   );
 }
